@@ -1,0 +1,85 @@
+.first-back{
+    font-family: 'Roboto Slab', serif;
+    /* margin: 0;
+    padding: 0; */
+    /* background-image: url(/images/giphy\ \(3\).gif); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 550px;
+
+}
+.text-position{
+  position: absolute;
+  left: 50px;
+  top: 25%;
+  color:white;
+}
+.second-back{
+    background-image: url(/images/meetings-page-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fifth-back{
+    background-image: url(/images/apply-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fourth-back{
+    background-image: url(/images/apply-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sixth-back{
+    background-image: url(/images/apply-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* nav var two side divided:- */
+.two-side{
+    margin-left: 300px;
+}
+.rounded-btn{
+    border-radius: 25px;
+    color:white;
+}
+.rounded-btn:hover{
+    
+    transform: scale(1.1);
+    transition: ease-in-out.1s;
+    font-weight: 700;
+    color:white;
+}
+/* card part start:- */
+.card img{
+    margin-left: 6.9rem;
+}
+.card{
+    border-radius: 20px;
+}
+.card-hover:hover{
+    transform: scale(1.1);
+    transition: ease-in-out.5s;
+}
+.meeting img{
+    border-radius: 10px;
+}
+.meeting{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.meeting-info{
+    margin:15px;
+    padding:10px;
+    border-radius:10px;
+    margin:10px;
+    box-shadow: 10px 10px 10px gray;
+    background-color: white;
+}
+.meeting-info:hover{
+    transform: scale(1.1);
+    transition: ease-in-out.5s;
+}
+.fourth-devided{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
